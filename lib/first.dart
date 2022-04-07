@@ -11,7 +11,6 @@ class first extends StatefulWidget {
 }
 
 class _firstState extends State<first> {
-  //final Geolocator geolocator = Geolocator()..forceAndroidLocationManager;
   late Position _currentPosition;
   var _currentAddress;
   late String lat;
@@ -23,7 +22,7 @@ class _firstState extends State<first> {
   var humidity;
   var windspeed;
   var cityname;
-  //final Geolocator geolocator = Geolocator()..forceAndroidLocationManager;
+
   @override
   void initState() {
     super.initState();
